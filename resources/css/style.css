@@ -51,7 +51,7 @@ img{
 
   width: 25rem;
   background-color: black;
-  margin-left:25%;
+  margin-left:30%;
 
 }
 
@@ -94,7 +94,7 @@ img{
 }
 
 .container3{
-  height: 30rem;
+
 
 
 
@@ -113,23 +113,10 @@ h4{
   margin-top: 0;
 }
 
-h5{
-  background-color: black;
-  color: white;
-  font-size: 1.25rem;
-  text-align: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-left: 5rem;
-  height: 3.5rem;
-  width: 30rem;
-}
+
 
 h6{
+
   text-align: center;
   color: black;
 }
@@ -137,13 +124,43 @@ h6{
 .bottomboxes{
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-  margin-top: 2rem;
-  width: 100%;
+
+
+}
+
+.leftbox{
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   justify-content: center;
   align-items: center;
   align-content: center;
+  justify-content: space-between;
+
+  margin-right: 15%;
+  height: 3.5rem;
+  width: 30%;
+
+
+}
+
+.rightbox{
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 15%;
+
+  height: 3.5rem;
+  width: 30%;
+
+
+
 }
 
 .boxcontainer{
@@ -163,10 +180,12 @@ h6{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 80%;
   height: 13rem;
-  width: 13rem;
+  width: 13rem;;
   padding: 2rem;
   border: 0.1rem solid black;
+
 
 
 
@@ -178,6 +197,7 @@ h6{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 80%;
     height: 13rem;
     width: 13rem;
     padding: 2rem;
@@ -191,10 +211,12 @@ h6{
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      background-size: 80%;
       height: 13rem;
       width: 13rem;
       padding: 2rem;
       border: 0.1rem solid black;
+
 
 
 }
@@ -209,9 +231,31 @@ h6{
 
 
 
+
+
 }
 
 p{
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 700px){
+  .rightbox{
+    margin-right: 5%;
+  }
+  .leftbox{
+    margin-left: 5%;
+  }
+
+}
+
+@media only screen and (min-width: 1600px){
+  .rightbox{
+    margin-right: 9.5%;
+  }
+  .leftbox{
+    margin-left: 9.5%;
+  }
+
 }
